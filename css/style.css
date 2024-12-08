@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    max-width: 100vw;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: lightgray;
+    border-bottom: 5px silver groove;
+}
+header h1 {
+    font-size: 32px;
+    font-family: 'Lobster';
+    padding: 15px 0 ;
+}
+
+
+main {
+    width: 100%;
+    min-height: calc(100vh - 145px);
+    background-color: white;
+    padding: 20px;
+}
+main h1 {
+    font-size: 28px;
+    font-family: 'Lobster';
+    text-align: center;
+}
+main p {
+    text-indent: 25px;
+    font-size: 28px;
+    font-family: 'Arial';
+    text-align: justify;
+}
+main #timers {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+main label{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Arial';
+}
+main input{
+    width: 100px;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 24px;
+    font-family: 'Arial';
+}
+main button{
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    font-family: 'Arial';
+}
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: lightgray;
+    border-top: 5px silver groove;
+}
+footer h1 {
+    font-size: 32px;
+    font-family: 'Lobster';
+    padding: 15px 0 ;
+}
